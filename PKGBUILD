@@ -18,7 +18,7 @@ pkgdesc="SQLite-based plugin for QtPIM Contacts"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('BSD-3-Clause')
-depends=('qt5-declarative' 'qt5-pim-git' 'qt5-mlite-git')
+depends=('qt5-pim-git' 'qt5-mlite-git')
 makedepends=('git')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
